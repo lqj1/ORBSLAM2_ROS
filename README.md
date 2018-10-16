@@ -8,6 +8,7 @@ ORB-SLAM2 is a real-time SLAM library for **Monocular**, **Stereo** and **RGB-D*
 **Notes about this fork**: the code has been refactored to allow disabling the GUI at compile-time and export all data (map, estimated pose, marked frame) to ROS.  Most of the functionality "lost" from the GUI is recovered by external tools such as RViz, while several additional capabilities are gained, such as integration with other ROS-enabled software and the possibility of distributing computation and visualization across several network-linked computers.
 
 #####Videos showing ORB-SLAM2:
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=dF7_I2Lin54
 " target="_blank"><img src="http://img.youtube.com/vi/dF7_I2Lin54/0.jpg" 
 alt="Tsukuba Dataset" width="240" height="180" border="10" /></a>
