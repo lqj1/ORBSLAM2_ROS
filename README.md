@@ -1,3 +1,16 @@
+#### change
+2.1 
+通过 ssh 远程 TX2或树莓派上配置的 ORBSLAM
+cd ORB_SLAM2-ros(这里是去掉GUI的ORBSLAM2,注意要修改源文件订阅的Topic为自己摄像头订阅的topic)
+启动深度相机kinect (这里我用的是Kinect v1)
+$ roslaunch freenect_launch freenect.launch depth_registration:=true
+启动建图：
+rosrun ORB_SLAM2 RGBD /home/nvidia/ORB_SLAM2-ros_new/Vocabulary/ORBvoc.txt /home/nvidia/ORB_SLAM2-ros_new/Kinect.yaml
+打开另一个cmd窗口，输入
+rviz
+订阅frame里的image话题，和map里面的话题，就可以通过远程的方式运行ORBSLAM2
+
+
 # ORB-SLAM2
 **Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2))
 
