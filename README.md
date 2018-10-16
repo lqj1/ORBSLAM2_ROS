@@ -1,7 +1,5 @@
 #### change
 
-2.1 
-
 通过 ssh 远程 TX2或树莓派上配置的 ORBSLAM
 
 cd ORB_SLAM2-ros(这里是去掉GUI的ORBSLAM2,注意要修改源文件订阅的Topic为自己摄像头订阅的topic)
