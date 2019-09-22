@@ -1,6 +1,4 @@
-//
-// Created by sebastiano on 15/08/16.
-//
+
 
 #ifdef ENABLE_GUI
 #  include "IMapRenderer.h"
