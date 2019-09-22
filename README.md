@@ -1,4 +1,4 @@
-# Change
+# Change CN
 
 通过 ssh 远程 TX2或树莓派上配置的 ORBSLAM2
 
@@ -16,8 +16,28 @@ $ rosrun ORB_SLAM2 RGBD /home/nvidia/ORB_SLAM2-ros/Vocabulary/ORBvoc.txt /home/n
 
 打开另一个cmd窗口，输入
 $ rviz
-
 订阅frame里的image话题，和map里面的话题，就可以通过远程的方式运行ORBSLAM2
+
+# Change EN
+Remote ORBSLAM2 Configured on TX2 or raspberry pie via SSH
+
+// (Here's ORBSLAM2 without GUI. Be careful to modify the Topic of the source file subscription to subscribe to the topic for your camera. For example, the topic for Kinect2 is /kinect2/qhd/image_color and /kinect2/qhd/image_depth_rect)
+
+// Start Kinect (Kinect v1)
+$ roslaunch freenect_launch freenect.launch depth_registration:=true
+
+// Your can also use Kinect v2
+& roslaunch kinect2_bridge kinect2_bridge.launch
+
+// Starting Mapping
+$ rosrun ORB_SLAM2 RGBD /home/nvidia/ORB_SLAM2-ros/Vocabulary/ORBvoc.txt /home/nvidia/ORB_SLAM2-ros/Kinect.yaml
+
+// Open another cmd window, type
+$ rviz
+
+// Subscribe to image topics in frame and topics in maps to run ORBSLAM2 remotely
+
+
 
 
 # ORB-SLAM2
