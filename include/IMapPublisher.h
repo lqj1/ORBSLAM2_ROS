@@ -1,6 +1,4 @@
-//
-// Created by sebastiano on 8/18/16.
-//
+
 
 #ifndef ORB_SLAM2_IMAPDRAWER_H
 #define ORB_SLAM2_IMAPDRAWER_H
