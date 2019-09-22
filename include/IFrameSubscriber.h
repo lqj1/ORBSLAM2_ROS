@@ -1,6 +1,4 @@
-//
-// Created by sebastiano on 8/19/16.
-//
+
 
 #ifndef ORB_SLAM2_IFRAMESUBSCRIBER_H
 #define ORB_SLAM2_IFRAMESUBSCRIBER_H
