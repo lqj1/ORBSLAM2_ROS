@@ -1,6 +1,3 @@
-//
-// Created by sebastiano on 8/24/16.
-//
 
 #ifndef ORB_SLAM2_FAILURE_H
 #define ORB_SLAM2_FAILURE_H
