@@ -1,6 +1,3 @@
-//
-// Created by sebastiano on 8/18/16.
-//
 
 #include "IPublisherThread.h"
 #include <unistd.h>
