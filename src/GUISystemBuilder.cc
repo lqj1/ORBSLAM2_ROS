@@ -1,6 +1,3 @@
-//
-// Created by sebastiano on 8/23/16.
-//
 
 #include "GUISystemBuilder.h"
 #include "utils.h"
