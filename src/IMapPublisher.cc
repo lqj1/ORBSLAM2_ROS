@@ -1,6 +1,4 @@
-//
-// Created by sebastiano on 8/18/16.
-//
+
 
 #include "IMapPublisher.h"
 
