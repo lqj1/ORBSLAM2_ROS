@@ -1,6 +1,3 @@
-//
-// Created by sebastiano on 8/23/16.
-//
 
 #ifndef ORB_SLAM2_GUISYSTEM_H
 #define ORB_SLAM2_GUISYSTEM_H
