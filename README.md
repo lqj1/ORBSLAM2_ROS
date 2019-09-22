@@ -13,7 +13,7 @@ $ roslaunch freenect_launch freenect.launch depth_registration:=true
 
 // 也可以用Kinect v2
 
-& roslaunch kinect2_bridge kinect2_bridge.launch
+$ roslaunch kinect2_bridge kinect2_bridge.launch
 
 
 // 启动建图：
