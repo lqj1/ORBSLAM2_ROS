@@ -1,6 +1,3 @@
-//
-// Created by sebastiano on 15/08/16.
-//
 
 #ifndef ORB_SLAM2_IMAPRENDERER_H
 #define ORB_SLAM2_IMAPRENDERER_H
